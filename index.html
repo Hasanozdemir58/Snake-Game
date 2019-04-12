@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snake Game</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<div class="container">
+		<div id="overlay">
+		Your final score:<span id="final_score"</span>
+		<br>
+		<a onClick="window.location.reload()"href="#">Click to Play Again</a>
+	</div>
+	<canvas id="canvas" width="600" height="400">Sorry this browser doesn't support the canvas element</canvas>
+	<div id="stats">	
+		<div class="score"></div>
+		<div class="score"></div>
+		<button onClick="resetscore()" id="reset_score">Reset the high score</button>
+	</div>
+	
+	<!--JQuerry -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+	<!--Main JS -->
+	<script src="script.js"></script>
+	 
+</body>
+
+</html> 
